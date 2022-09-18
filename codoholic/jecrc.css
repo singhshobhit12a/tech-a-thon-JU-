@@ -1,0 +1,45 @@
+/*base*/
+*{
+    padding:0;
+    margin:0;
+}
+body
+{
+    font-family:sans-serif;
+}
+/*Main content*/
+.main-content
+{
+    width:500px;
+    position:absolute;
+    top:50%;
+    Left:50%;
+    transform:translateX(-50%) translateY(-50%);
+    /*box-shadow:0 10px 20px rgba(19, 2, 2, 0.19);*/
+
+}
+
+/* text editor header */
+
+.text-editor-header
+{
+    background-color:black;
+    padding: 5px;
+
+}
+.text-editor-header .btn
+{border:none;
+    outline:none;
+    background-color:black;
+    margin-right:5px;
+
+
+}
+
+/*content*/
+.content{
+   min-height:150px;
+   border: 1px solid black;
+   border-top:0px;
+   padding:20px;
+}
